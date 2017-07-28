@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sample" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIAAAAIAQAABAAAAEAABAAAEUAAAAAAA=</HashCode>
+      <FileName>Audio\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audio" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAmCEABEIABEAAIQAAAAA4CACAAAAAAA=</HashCode>
+      <FileName>Audio\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cMutexImpl" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAIAAAAAAAAgAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Thread\Mutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cMutex" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAEAAAAACAAAAAAQAACAAAQAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Thread\Mutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWAVFile" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkUAAAIAQQAQANQgIAAGAABAIAKQIAQAAQCAAQBAEg=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cData" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABYAAAAAAAAAAAgAhACAAQAAAAAAAgAwCAAABA=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAASAgAgAIJCACAVAECAAACQCgBAACAAAAAAY=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundData" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEIIBRAQAYEAAACAICAAIBgUAgBAACAgIAAAAAIAAYM=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundChannel" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAaBAAACCYEBAkBCqCAsClAoIAQBCESQokAtCCGAJBY=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cThread" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAwQAAAAAAAAAAAAAAAAAwgAAAAAAAACABAAAAA=</HashCode>
+      <FileName>Thread\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAAAAAEAAAAAAAAAIAAAAAAAQAAAAEEUAAA=</HashCode>
+      <FileName>Global\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cApplication" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAEAAQOAAAQABEAAAAYIgAAAAIASAAARChAMAAAM=</HashCode>
+      <FileName>Application_Framework\winmain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::_2DEngine" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAGZNgghAgAJA6ASQqBKIACmDAlSoGGaATAgAmYAFc=</HashCode>
+      <FileName>Sprite\2dengine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Camera" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRCIiEAAAgAIAAASAAWIAESAAAEsAAAAgAAAGBlEAA=</HashCode>
+      <FileName>Camera\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::CGameConsole" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAACAAAAAIQBQEBAAAAAAAAAEAAAEAAAABQBFAAA=</HashCode>
+      <FileName>Console\Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cBaseEntity" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAARiABAgAURTBICYGAAgABoAGACJGgIEoDCBAAgA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cFontManager" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEQAIAAAQAAAAAAAAAAAAAEAAAAACAAIAQA=</HashCode>
+      <FileName>Font\Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cInput" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAAAAARKAAAAAAAAAAAAKAAAAAAA=</HashCode>
+      <FileName>Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cInputDevice" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEACIKMAAQCRBAkSggBQAFQhABAAAFAQBAAA4IBIEAI=</HashCode>
+      <FileName>Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Light" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIBgAAAAAAACAkAAWAhACAQAEAIAABAAAgGAJAAI=</HashCode>
+      <FileName>Light\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cMath" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAgAAIAAAAAAAAIBAAAgIAABAAAAAAEAAAAA=</HashCode>
+      <FileName>Math\math.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Mesh" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAERGGCAgSAAAKAIBQCEAAFBkkAYRUAAgDAAQI=</HashCode>
+      <FileName>Mesh\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Particle" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAoAMAhAAAIALEQAAkqALAACEAABBIICAAQAJAAEAAI=</HashCode>
+      <FileName>Particle\Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::cPhysicsObject" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAABQAAAIAAAAAAAgAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Physics\Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Rect" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAiAAIABAAQBAAAIkACKAIQAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Rect\Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::eStateManager" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAKAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAQ=</HashCode>
+      <FileName>State\StateMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Texture" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAACAAAAgAAAAAAAABAAAAAAQgEAQAIAABAAAAI=</HashCode>
+      <FileName>Texture\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::_vector" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GkAAAIAAAAEAABaAYEWAAQgACEAQAAAAYAFgEQAAAoA=</HashCode>
+      <FileName>Vector\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viper2D::Engine" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KI0E3ElO2CTBgBmVAKihidY1CgpCShAuRUgGABGCMDs=</HashCode>
+      <FileName>Viper2D\Viper2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ThreadParam" Collapsed="true">
+    <Position X="21" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thread\Thread.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sWaveHeader" Collapsed="true">
+    <Position X="28" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAEAAAEAACAAAAAAAAACAAAgABAAAAAEAAEhA=</HashCode>
+      <FileName>Audio\Sound.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_Thread_t" Collapsed="true">
+    <Position X="13.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thread\Thread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e5_1" Collapsed="true">
+    <Position X="9.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAABAAAEAEAAAAEAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e5_2" Collapsed="true">
+    <Position X="5.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEABACAAAAAAAECAAAAAgAAAAAAAACAAAAQAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e5_3" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACEAEAAAABIAAAABAACBAAAAAAEAEAAACAAAgAg=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e5_4" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAhAAAEAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_info_residue0" Collapsed="true">
+    <Position X="26.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACECAABAAAABgAAAAAAQAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e5_5" Collapsed="true">
+    <Position X="17.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAEAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_info_mapping0" Collapsed="true">
+    <Position X="22.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAACARAAAAAAAAAAIAACAAAAAAAAAAACA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bitrate_manager_state" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAEAAAAAAFAAIAAQAAAAAAIAAAAABgAA=</HashCode>
+      <FileName>ogg\bitrate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bitrate_manager_info" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAgAAAAAAAAIAAAAQAAAAAAAAAAAAI=</HashCode>
+      <FileName>ogg\bitrate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="static_codebook" Collapsed="true">
+    <Position X="26.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAVAAAACJAAAAAQAAgABAAQIAAgAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codebook.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="encode_aux_nearestmatch" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAADAAAAACAAAAAAAAAAAAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>ogg\codebook.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="encode_aux_threshmatch" Collapsed="true">
+    <Position X="24.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codebook.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="encode_aux_pigeonhole" Collapsed="true">
+    <Position X="22.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAACCAAAAoAAAAAiAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ogg\codebook.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="codebook" Collapsed="true">
+    <Position X="26.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACACAEAAAAAABgAAAAAAAACACAAAAAAAAAYAA=</HashCode>
+      <FileName>ogg\codebook.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_info" Collapsed="true">
+    <Position X="21" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAABAAAIAgAAIAAAAAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>ogg\codec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_dsp_state" Collapsed="true">
+    <Position X="28" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQEAAAAIgBgAAAAAAAQBAAQAAAEIAoAQASAAAIAAU=</HashCode>
+      <FileName>ogg\codec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_block" Collapsed="true">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAIIBAASAAAAAAgCAAAEAAIAoAQA6AAAIAAE=</HashCode>
+      <FileName>ogg\codec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="alloc_chain" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAA=</HashCode>
+      <FileName>ogg\codec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_comment" Collapsed="true">
+    <Position X="26.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_block_internal" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAAEBAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e6_1" Collapsed="true">
+    <Position X="1.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="private_state" Collapsed="true">
+    <Position X="24.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAEgAAAAIAgCAAAAAAACAEgAAoAAAACAAAAQA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="codec_setup_info" Collapsed="true">
+    <Position X="28" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAIAAABAIQgAAiACJAAAQQAoAFAAAAAAAAAgABAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e7_1" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAASAACAAAAIAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e7_2" Collapsed="true">
+    <Position X="13.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAIAEAAAAAAAAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e7_3" Collapsed="true">
+    <Position X="9.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAEIAAQAFAAAgACAABAAAAACAAIAoAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="highlevel_byblocktype" Collapsed="true">
+    <Position X="26.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAIAAASAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\highlevel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="highlevel_encode_setup" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAIAAAAAACAIAgAIAAEMggiAAAgAQAAAAACABAADAA=</HashCode>
+      <FileName>ogg\highlevel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00e8_1" Collapsed="true">
+    <Position X="5.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIAAAACAAAAAAAAEAAAAAAAAEA=</HashCode>
+      <FileName>ogg\mdct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00da_1" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAABAAAAAAAAAAAAAAAEAAAABCAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00da_2" Collapsed="true">
+    <Position X="13.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00da_3" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEBQFAAgAABBAAAAAIAAAEAAgAggAACAQAAQAACA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00da_4" Collapsed="true">
+    <Position X="1.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAgAAAAAAAAAAAAAEAAAAAgAAAAQIAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00da_5" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAgAAgAAAgAAAAAAAAgSAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vorbis_info_psy" Collapsed="true">
+    <Position X="24.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACgIgAgADAAAoAAsCAEACAABAAAAAEEQgAQAEAAA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00ea_1" Collapsed="true">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAABAAAAAAAAAAQABAAACAABQAAAAAAAIAABA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00ea_2" Collapsed="true">
+    <Position X="1.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAABQAAAAAAA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00ea_3" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEEAAAAAiBAAAAADAAAAgAAAAAAAkAAAAAIAAQA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00eb_1" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ogg\smallft.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00d8_1" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\vorbisfile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OggVorbis_File" Collapsed="true">
+    <Position X="22.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIDABAECAAAAgEAAAAQAAEABACAoggAAAAMAAIAAAAE=</HashCode>
+      <FileName>ogg\vorbisfile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Viper2D::MyData" Collapsed="true">
+    <Position X="21" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viper2D\Viper2D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="start" Collapsed="true">
+    <Position X="28" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thread\Thread.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Thread_t" Collapsed="true">
+    <Position X="13.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thread\Thread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_func_floor" Collapsed="true">
+    <Position X="9.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_floor0" Collapsed="true">
+    <Position X="5.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_floor1" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_func_residue" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_func_mapping" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\backends.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_look_floor" Collapsed="true">
+    <Position X="26.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_look_residue" Collapsed="true">
+    <Position X="28" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_look_transform" Collapsed="true">
+    <Position X="21" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_mode" Collapsed="true">
+    <Position X="1.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_floor" Collapsed="true">
+    <Position X="21" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_residue" Collapsed="true">
+    <Position X="24.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_mapping" Collapsed="true">
+    <Position X="22.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\codec_internal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="envelope_filter_state" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="envelope_band" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="envelope_lookup" Collapsed="true">
+    <Position X="9.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\envelope.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mdct_lookup" Collapsed="true">
+    <Position X="5.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\mdct.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="oggpack_buffer" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_page" Collapsed="true">
+    <Position X="13.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_stream_state" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_packet" Collapsed="true">
+    <Position X="1.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_sync_state" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\ogg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_fpu_control" Collapsed="true">
+    <Position X="9.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_int64_t" Collapsed="true">
+    <Position X="22.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_int32_t" Collapsed="true">
+    <Position X="21" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_uint32_t" Collapsed="true">
+    <Position X="26.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_int16_t" Collapsed="true">
+    <Position X="9.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ogg_uint16_t" Collapsed="true">
+    <Position X="24.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\os_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_info_psy_global" Collapsed="true">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_look_psy_global" Collapsed="true">
+    <Position X="1.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vorbis_look_psy" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\psy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="drft_lookup" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\smallft.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ov_callbacks" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ogg\vorbisfile.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Viper2D::Collision" Collapsed="true">
+    <Position X="22.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Sprite\2dengine.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::ObjectType" Collapsed="true">
+    <Position X="22.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBAAAAAQAAAAAACAgQACAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::RenderType" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::CollideType" Collapsed="true">
+    <Position X="21" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::DamageState" Collapsed="true">
+    <Position X="26.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::LifeState" Collapsed="true">
+    <Position X="21" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::InputDevices" Collapsed="true">
+    <Position X="28" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAABAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Viper2D::cState" Collapsed="true">
+    <Position X="24.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAIAA=</HashCode>
+      <FileName>State\StateMgr.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
